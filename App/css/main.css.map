@@ -2,7 +2,7 @@
     "version": 3,
     "mappings": "AAAA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CACzB",
     "sources": [
-        "../App/scss/main.scss"
+        "../scss/main.scss"
     ],
     "names": [],
     "file": "main.css"
