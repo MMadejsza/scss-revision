@@ -1,5 +1,87 @@
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  margin: 0%;
+  padding: 0;
+}
+
+.home {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(65, 65, 65, 0.9)), to(rgba(65, 65, 65, 0.3))), url(../img/model-1.jpg) center top;
+  background: linear-gradient(to right, rgba(65, 65, 65, 0.9), rgba(65, 65, 65, 0.3)), url(../img/model-1.jpg) center top;
+  background-size: cover;
+}
+
+.home__name {
+  font-size: 4.5rem;
+  padding-bottom: 1rem;
+  margin-top: 1rem;
+  border-bottom: 2px solid white;
+}
+
+.home__name--last {
+  color: #AAFF00;
+  font-weight: 700;
+}
+
+body {
+  background-color: #414141;
+  color: white;
+  height: 100vh;
+  line-height: 1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding: 1rem;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+main .social-icons {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+main .social-icons a {
+  padding: 0.4rem;
+}
+
+main .social-icons a:hover {
+  color: #AAFF00;
+}
+
+footer {
+  font-size: 1rem;
+  position: fixed;
+  bottom: 0.4rem;
+  right: 1rem;
+  text-align: right;
+  padding: 1rem;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
