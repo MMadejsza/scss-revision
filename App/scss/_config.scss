@@ -20,3 +20,11 @@ $secondary-color:#AAFF00;
         @return #fff;
     }
 }
+
+@mixin bars {
+    content: '';
+    position: absolute;
+    height: 3px;
+    background-color: set-text-color($primary-color);
+    @include transition-ease-out;
+}

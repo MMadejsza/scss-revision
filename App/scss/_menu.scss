@@ -18,13 +18,15 @@
         @include transition-ease-out;
 
         &::before {
-            content: '';
-            position: absolute;
             top: -8px;
             width: 28px;
-            height: 3px;
-            background-color: set-text-color($primary-color);
-            @include transition-ease-out
+            @include bars;
+        }
+
+        &::after {
+            top: 8px;
+            width: 20px;
+            @include bars;
         }
     }
 }
