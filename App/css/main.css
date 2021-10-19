@@ -18,11 +18,15 @@
   background-size: cover;
 }
 
+.home h2 {
+  font-size: 1.06rem;
+}
+
 .home__name {
   font-size: 4.5rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #fff;
 }
 
 .home__name--last {
@@ -32,7 +36,7 @@
 
 body {
   background-color: #414141;
-  color: white;
+  color: #fff;
   height: 100vh;
   line-height: 1;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -45,7 +49,7 @@ h3 {
 }
 
 a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -69,10 +73,14 @@ main .social-icons {
 
 main .social-icons a {
   padding: 0.4rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 main .social-icons a:hover {
   color: #AAFF00;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 footer {

@@ -9,11 +9,15 @@
         url(../img/model-1.jpg) center top;
     background-size: cover;
 
+    h2 {
+        font-size: 1.06rem;
+    }
+
     &__name {
         font-size: 4.5rem;
         padding-bottom: 1rem;
         margin-top: 1rem;
-        border-bottom: 2px solid white;
+        border-bottom: 2px solid set-text-color($primary-color);
 
         &--last {
             color: $secondary-color;

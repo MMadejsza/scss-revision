@@ -6,3 +6,17 @@ $secondary-color:#AAFF00;
     margin: 0%;
     padding: 0;
 }
+
+@mixin transition-ease-out {
+    transition: all 0.5s ease-in-out;
+}
+
+@function set-text-color($color) {
+    @if(lightness($color)>40%) {
+        @return black;
+    }
+
+    @else {
+        @return #fff;
+    }
+}
