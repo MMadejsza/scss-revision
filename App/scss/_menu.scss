@@ -73,5 +73,32 @@
         &.open {
             transform: translate(0);
         }
+
+        &__item {
+            margin: 2rem 0;
+            transform: translateX(100vw);
+            @include transition-ease-out;
+
+            &.open {
+                transform: translateX(0);
+            }
+
+            &.active>a {
+                color: $secondary-color;
+            }
+
+        }
+
+        &__link {
+            font-size: 2rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            @include transition-ease-out;
+
+            &:hover {
+                color: $secondary-color
+            }
+        }
+
     }
 }

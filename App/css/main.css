@@ -139,6 +139,35 @@
           transform: translate(0);
 }
 
+.nav .menu-nav__item {
+  margin: 2rem 0;
+  -webkit-transform: translateX(100vw);
+          transform: translateX(100vw);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav .menu-nav__item.open {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.nav .menu-nav__item.active > a {
+  color: #AAFF00;
+}
+
+.nav .menu-nav__link {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav .menu-nav__link:hover {
+  color: #AAFF00;
+}
+
 body {
   background-color: #414141;
   color: #fff;
