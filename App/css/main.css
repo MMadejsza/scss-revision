@@ -30,7 +30,7 @@
 }
 
 .home__name--last {
-  color: #AAFF00;
+  color: #9ACD32;
   font-weight: 700;
 }
 
@@ -153,7 +153,7 @@
 }
 
 .nav .menu-nav__item.active > a {
-  color: #AAFF00;
+  color: #9ACD32;
 }
 
 .nav .menu-nav__link {
@@ -165,7 +165,7 @@
 }
 
 .nav .menu-nav__link:hover {
-  color: #AAFF00;
+  color: #9ACD32;
 }
 
 .about {
@@ -219,7 +219,7 @@
 .about .jobs__job {
   background: #5a5a5a;
   padding: 0.5rem;
-  border-bottom: 5px solid #AAFF00;
+  border-bottom: 5px solid #9ACD32;
 }
 
 .about .jobs__job h2,
@@ -297,7 +297,7 @@
 
 .projects__items__item {
   position: relative;
-  border-bottom: 5px solid #AAFF00;
+  border-bottom: 5px solid #9ACD32;
   overflow: hidden;
   cursor: pointer;
 }
@@ -313,7 +313,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: #AAFF00;
+  background: #9ACD32;
   opacity: 0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -370,6 +370,44 @@
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+.contact {
+  height: 100%;
+  padding-top: 40vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(65, 65, 65, 0.9)), to(rgba(65, 65, 65, 0.3))), url(../img/model-1.jpg) center top;
+  background: linear-gradient(to right, rgba(65, 65, 65, 0.9), rgba(65, 65, 65, 0.3)), url(../img/model-1.jpg) center top;
+  background-size: cover;
+}
+
+.contact h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.contact__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  font-size: 1.5rem;
+}
+
+.contact .social-icons {
+  position: initial;
+  margin-top: 2rem;
+}
+
 body {
   background-color: #414141;
   color: #fff;
@@ -390,7 +428,7 @@ a {
 }
 
 .text-secondary {
-  color: #AAFF00;
+  color: #9ACD32;
 }
 
 header {
@@ -418,7 +456,7 @@ main .social-icons a {
 }
 
 main .social-icons a:hover {
-  color: #AAFF00;
+  color: #9ACD32;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
