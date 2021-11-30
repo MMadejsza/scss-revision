@@ -13,9 +13,10 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(65, 65, 65, 0.9)), to(rgba(65, 65, 65, 0.3))), url(../img/model-1.jpg) center top;
-  background: linear-gradient(to right, rgba(65, 65, 65, 0.9), rgba(65, 65, 65, 0.3)), url(../img/model-1.jpg) center top;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(65, 65, 65, 0.95)), to(rgba(65, 65, 65, 0.4)));
+  background: linear-gradient(to top, rgba(65, 65, 65, 0.95), rgba(65, 65, 65, 0.4));
   background-size: cover;
+  background-color: white;
 }
 
 .home h2 {
@@ -175,8 +176,10 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(65, 65, 65, 0.9)), to(rgba(65, 65, 65, 0.3))), url(../img/model-1.jpg) center top;
-  background: linear-gradient(to right, rgba(65, 65, 65, 0.9), rgba(65, 65, 65, 0.3)), url(../img/model-1.jpg) center top;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(65, 65, 65, 0.95)), to(rgba(65, 65, 65, 0.4)));
+  background: linear-gradient(to top, rgba(65, 65, 65, 0.95), rgba(65, 65, 65, 0.4));
+  background-size: cover;
+  background-color: white;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -253,9 +256,10 @@
 .projects__bio-image {
   height: 30vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(65, 65, 65, 0.9)), to(rgba(65, 65, 65, 0.3))), url(../img/model-1.jpg) center top;
-  background: linear-gradient(to right, rgba(65, 65, 65, 0.9), rgba(65, 65, 65, 0.3)), url(../img/model-1.jpg) center top;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(65, 65, 65, 0.95)), to(rgba(65, 65, 65, 0.4)));
+  background: linear-gradient(to top, rgba(65, 65, 65, 0.95), rgba(65, 65, 65, 0.4));
   background-size: cover;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -384,9 +388,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(65, 65, 65, 0.9)), to(rgba(65, 65, 65, 0.3))), url(../img/model-1.jpg) center top;
-  background: linear-gradient(to right, rgba(65, 65, 65, 0.9), rgba(65, 65, 65, 0.3)), url(../img/model-1.jpg) center top;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(65, 65, 65, 0.95)), to(rgba(65, 65, 65, 0.4)));
+  background: linear-gradient(to top, rgba(65, 65, 65, 0.95), rgba(65, 65, 65, 0.4));
   background-size: cover;
+  background-color: white;
 }
 
 .contact h2 {
